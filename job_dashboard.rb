@@ -1,3 +1,6 @@
 require 'sinatra'
-require 'sinatra/reloaded' 
+require 'sinatra/reloader'
 
+get '/' do
+  erb :index
+end
